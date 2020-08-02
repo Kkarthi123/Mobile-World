@@ -1,0 +1,244 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(250, 235, 215, 0.137);
+}
+html{
+    font-family: lato, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.container1{
+    width: 1140px;
+    margin: 0 auto;
+  
+}
+.row1{
+    display: flex;
+    flex-wrap:wrap;
+}
+.h-logo{
+    width: auto;
+    height: 70px;
+    margin: 10px 60px;
+
+}
+.header-list{
+    margin-left: 10px;
+}
+.header-list li {
+    display: inline;
+    margin-right: 50px;
+}
+.header-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 15px; 
+    
+}
+.header-list li a:hover{
+    background-color: rgba(248, 90, 169, 0.61);
+    border-bottom: 0.8px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.418);
+    transition: 1s;    
+}
+header{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.493);
+    background-color: rgb(41, 55, 134);
+    background-color: linear-gradient(rgba(0, 0, 0, 0.438),rgb(121, 121, 121));
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.title {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.678)), url(../img/hello.jpg);
+    height: 80vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+.title-text {
+    color:black;
+    margin-top: 130px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    display: inline;
+    font-size: 20px;
+    background-color: rgb(146, 169, 247);
+    border: 0.5px solid rgb(2, 2, 2);
+    margin-left: 70%;
+    margin-top: 5%;
+}
+button{
+    color: black;
+    background-color: brown;
+    height: 40px;
+    border-radius: 9px;
+    float: right;
+    margin-top: 5%;
+    width: auto;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+form{
+    display: inline;
+}
+.title-text h1 {
+    font-size: 60px;
+    color:rgb(247, 217, 162);
+}
+.title-text p {
+    font-size: 27px;
+    color: rgb(247, 217, 162);
+}
+ .f-h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.f-h2::after {
+    display:block;
+    height: 5px;
+    background-color: rgba(0, 36, 104, 0.842);
+    border-radius: 5px;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.features-text{
+   flex: 0 0 50%;
+   width: 50%;
+   border-radius: 20px;
+}
+.abc{
+    margin-left: 50px;
+}
+.features-text h3{
+    text-align: center;
+    margin-right: 50px;
+}
+.features-text p{
+    font-weight: 350;
+}
+.features-text h3::after{
+    display:block;
+    height: 5px;
+    background-color: rgba(104, 0, 95, 0.842);
+    border-radius: 5px;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.s-img{
+    flex: 0 0 50%;
+    width: 50%;
+}
+.f-img{
+    width: 70%;
+    height: 90%;
+    margin: 50px 15%;
+    border-radius: 30px; 
+}
+.features .row{
+    background-color: rgba(0, 7, 112, 0.089);
+    border-radius: 30px;
+}
+.slide{
+    flex: 0 0 25%;
+    width: 25%;
+    margin: 10px auto;
+    border: 0.1px solid rgba(0, 0, 0, 0.096);
+    background-color: rgba(102, 76, 248, 0.068);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.329);
+    padding: 20px;
+    border-radius: 20px;
+}
+.slide:hover{
+    background-color: rgba(0, 47, 255, 0.377);
+    transition: 0.8s;
+    transform:scale(1.02);
+}
+.slide img{
+    margin: 5px 30px;
+}
+.slide h2{
+    text-align: center;
+}
+.slide p{
+    text-align: center;
+}
+.slide a{
+    text-decoration: none;
+    color: black;
+}
+.slide1{
+    flex: 0 0 17%;
+    width: 17%;
+    margin:70px 25px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+.slide1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.slide1 a:hover,li:hover{
+    color: wheat;
+    transition: .4s ease-in-out;
+    transform:scale(1.05);
+}
+.slide1 h4{
+    text-align: center;
+}
+.slide1 ul li{
+    margin-bottom: 20px;
+    list-style-type: none;
+    
+}
+footer{
+    background-image: linear-gradient(rgba(19, 19, 20, 0.418),rgba(89, 116, 204, 0.445),rgba(19, 19, 20, 0.418)),url(../img/title-cover.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin-top: 40px;
+    bottom: 0%;
+    height: 80vh;
+}
+.web{
+    margin: 100px 0px;
+}
+.social{
+
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.fa{
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 70px;
+    padding: 0px;
+    color: whitesmoke;
+}
+.web a{
+    text-decoration: none;
+}
+.web .fa:hover{
+    transform: scale(1.5);
+    color: tomato;
+}
+.slide1 h4{
+    text-decoration: underline;
+}
+
+
+
